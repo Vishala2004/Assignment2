@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    height: 15px;
+    font-size: 15px;
+
+}
+.nav-item{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    background: rgba(45, 42, 42, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.card-img-top {
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    border-top: 1px solid #eaeaea;
+}
+
+footer .list-inline {
+    margin-bottom: 0;
+    width:100%;
+}
+.carousel-inner{
+    height: 100;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+    margin: 30px auto;
+}
+
+.close-modal {
+    cursor: pointer;
+}
